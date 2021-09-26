@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,23 @@ namespace MyFeiFei
         public MainWindow()
         {
             InitializeComponent();
+        }
+        public void Save()
+        {
+            Bitmap image = new Bitmap((int)this.Width, (int)this.Height);
+            Graphics g = Graphics.FromImage(image);
+
+            g.CopyFromScreen(0, 0, 0, 0,
+            new System.Drawing.Size((int)this.Width, (int)this.Height),
+            CopyPixelOperation.SourceCopy);
+            g.Dispose();
+
+            image.Save("D://weiboTemp.png");//默认保存格式为PNG，保存成jpg格式质量不是很好}
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Save();
         }
     }
 }

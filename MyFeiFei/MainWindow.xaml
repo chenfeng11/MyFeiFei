@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MyFeiFei"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="Red">
+        <Button Height="20" Width="50" Click="Button_Click"></Button>
     </Grid>
 </Window>
