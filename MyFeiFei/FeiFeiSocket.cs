@@ -16,7 +16,7 @@ namespace MyFeiFei
       static  List<Socket> Sockets = new List<Socket>();
         public void Socket() 
         {
-            int port = 10;
+            int port = 1111;
             byte[] buffer = new byte[1024];
 
             IPEndPoint localEP = new IPEndPoint(IPAddress.Any, port);

@@ -24,6 +24,7 @@ namespace MyFeiFei
         public MainWindow()
         {
             InitializeComponent();
+            OpenSocket();
         }
 
         public void Init() 
@@ -41,6 +42,12 @@ namespace MyFeiFei
             g.Dispose();
 
             image.Save("D://weiboTemp.png");//默认保存格式为PNG，保存成jpg格式质量不是很好}
+        }
+
+        public void OpenSocket() 
+        {
+            SocketTest socket = new SocketTest();
+            socket.OpenSocket();
         }
     }
 }

@@ -18,16 +18,16 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Image Grid.Column="0" Grid.Row="0" Source="pack://application:,,,/Image/GigaInferno14.png" Height="60" Width="60" HorizontalAlignment="Left" Margin="40" Stretch="Fill"></Image>
+        <!--<Image Grid.Column="0" Grid.Row="0" Source="pack://application:,,,/Image/GigaInferno14.png" Height="60" Width="60" HorizontalAlignment="Left" Margin="40" Stretch="Fill"></Image>-->
         <TextBlock Grid.Column="0" Grid.Row="0" Height="30" Width="40" HorizontalAlignment="Right" Margin="40" FontSize="20" TextAlignment="Center" VerticalAlignment="Center" > 12</TextBlock>
 
-        <Image Grid.Column="1" Grid.Row="0" Source="pack://application:,,,/Image/GigaInferno13.png" Height="60" Width="60" HorizontalAlignment="Left" Margin="40" Stretch="Fill"></Image>
+        <!--<Image Grid.Column="1" Grid.Row="0" Source="pack://application:,,,/Image/GigaInferno13.png" Height="60" Width="60" HorizontalAlignment="Left" Margin="40" Stretch="Fill"></Image>-->
         <TextBlock Grid.Column="1" Grid.Row="0" Height="30" Width="40" HorizontalAlignment="Right" Margin="40" FontSize="20" TextAlignment="Center" VerticalAlignment="Center" > 12</TextBlock>
 
-        <Image Grid.Column="2" Grid.Row="0" Source="pack://application:,,,/Image/GigaInferno12.png" Height="60" Width="60" HorizontalAlignment="Left" Margin="40" Stretch="Fill"></Image>
+        <!--<Image Grid.Column="2" Grid.Row="0" Source="pack://application:,,,/Image/GigaInferno12.png" Height="60" Width="60" HorizontalAlignment="Left" Margin="40" Stretch="Fill"></Image>-->
         <TextBlock Grid.Column="2" Grid.Row="0" Height="30" Width="40" HorizontalAlignment="Right" Margin="40" FontSize="20" TextAlignment="Center" VerticalAlignment="Center" > 12</TextBlock>
 
-        <Image Grid.Column="3" Grid.Row="0" Source="pack://application:,,,/Image/GigaInferno11.png" Height="60" Width="60" HorizontalAlignment="Left" Margin="40" Stretch="Fill"></Image>
+        <!--<Image Grid.Column="3" Grid.Row="0" Source="pack://application:,,,/Image/GigaInferno11.png" Height="60" Width="60" HorizontalAlignment="Left" Margin="40" Stretch="Fill"></Image>-->
         <TextBlock Grid.Column="3" Grid.Row="0" Height="30" Width="40" HorizontalAlignment="Right" Margin="40" FontSize="20" TextAlignment="Center" VerticalAlignment="Center" > 12</TextBlock>
     </Grid>
 </Window>
